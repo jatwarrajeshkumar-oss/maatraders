@@ -16,7 +16,7 @@
             --dark: #212121;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
-        body { background-color: var(--light); color: var(--dark); display: flex; min-height: 100vh; overflow-x: hidden; }
+        
         
         /* Auth System Style */
         .auth-container { position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0,0,0,0.8); z-index: 9999; display: flex; align-items: center; justify-content: center; }
