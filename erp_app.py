@@ -19,8 +19,7 @@
         
         
         /* Auth System Style */
-        
-        .auth-card h2 { margin-bottom: 20px; color: var(--primary); text-align: center; }
+       
 
         /* Left Side Menu Bar */
         .sidebar { width: 260px; background-color: var(--sidebar-bg); color: white; display: flex; flex-direction: column; position: fixed; top: 0; bottom: 0; left: 0; z-index: 100; transition: all 0.3s; }
