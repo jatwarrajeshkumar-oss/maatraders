@@ -22,31 +22,9 @@
        
 
         /* Left Side Menu Bar */
-        .sidebar { width: 260px; background-color: var(--sidebar-bg); color: white; display: flex; flex-direction: column; position: fixed; top: 0; bottom: 0; left: 0; z-index: 100; transition: all 0.3s; }
-        .sidebar-brand { padding: 20px; background: #1c272b; font-size: 20px; font-weight: bold; text-align: center; border-bottom: 1px solid #37474f; color: #81c784; }
-        .sidebar-menu { list-style: none; padding: 10px 0; flex: 1; overflow-y: auto; }
-        .sidebar-menu li a { display: flex; align-items: center; padding: 12px 20px; color: #cfd8dc; text-decoration: none; font-size: 14px; font-weight: 500; border-left: 4px solid transparent; transition: 0.2s; cursor: pointer; }
-        .sidebar-menu li a:hover, .sidebar-menu li a.active { background: var(--sidebar-hover); color: white; border-left-color: var(--primary); }
         
         /* Main Content Wrapper */
-        .main-content { margin-left: 260px; flex: 1; padding: 20px; display: flex; flex-direction: column; min-width: 0; }
         
-        /* Header Top Profile View */
-        .top-profile-bar { background: white; padding: 15px 20px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-        .firm-info h2 { font-size: 20px; color: var(--primary); }
-        .firm-info p { font-size: 12px; color: #666; margin-top: 2px; }
-
-        /* Cards & Forms */
-        .card { background: white; border-radius: 6px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 20px; }
-        .card-title { font-size: 16px; font-weight: 600; margin-bottom: 15px; color: var(--sidebar-bg); display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f0f2f5; padding-bottom: 8px; }
-        
-        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
-        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
-        
-        .form-group { margin-bottom: 12px; }
-        .form-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; color: #555; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; outline: none; }
-        .form-group input:focus, .form-group select:focus { border-color: var(--primary); }
         
         /* Buttons */
         .btn { padding: 8px 16px; border: none; border-radius: 4px; font-size: 13px; font-weight: bold; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
