@@ -57,7 +57,7 @@
     </div>
 
     <nav class="sidebar no-print">
-        <div class="sidebar-brand">🚜 माँ ट्रेडर्स भातमाहुल ERP</div>
+        
         <ul class="sidebar-menu">
             <li><a onclick="navTo('dashboard')" id="m-dashboard" class="active">📊 आकर्षक डैशबोर्ड</a></li>
             <li><a onclick="navTo('kisan')" id="m-kisan">🧑‍🌾 1. किसान विवरण</a></li>
