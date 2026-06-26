@@ -20,7 +20,7 @@
         
         /* Auth System Style */
         .auth-container { position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0,0,0,0.8); z-index: 9999; display: flex; align-items: center; justify-content: center; }
-        .auth-card { background: white; padding: 30px; border-radius: 8px; width: 100%; max-width: 400px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); }
+        
         .auth-card h2 { margin-bottom: 20px; color: var(--primary); text-align: center; }
 
         /* Left Side Menu Bar */
