@@ -26,57 +26,7 @@
         /* Main Content Wrapper */
         
         
-        /* Buttons */
-        .btn { padding: 8px 16px; border: none; border-radius: 4px; font-size: 13px; font-weight: bold; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
-        .btn-primary { background: var(--primary); color: white; }
-        .btn-secondary { background: var(--accent); color: white; }
-        .btn-danger { background: var(--danger); color: white; }
-        .btn-whatsapp { background: #25D366; color: white; }
-        .btn-sm { padding: 4px 8px; font-size: 11px; border-radius: 3px; }
-
-        /* Dashboard Overview Metrics */
-        .dash-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
-        .metric-card { background: white; padding: 20px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); transition: 0.2s; }
-        .metric-card:hover { transform: translateY(-2px); }
-        .metric-card h3 { font-size: 12px; text-transform: uppercase; color: #777; margin-bottom: 5px; }
-        .metric-card .value { font-size: 22px; font-weight: 700; color: var(--dark); }
-
-        /* Tables layout */
-        .table-wrap { overflow-x: auto; margin-top: 10px; }
-        table { width: 100%; border-collapse: collapse; background: white; font-size: 13px; text-align: left; }
-        th, td { padding: 10px 12px; border: 1px solid #e0e0e0; }
-        th { background: #f5f7f8; font-weight: bold; color: #333; }
-        tr:hover { background: #fafdff; }
-
-        .hidden { display: none !important; }
-
-        /* Modals layout */
-        #invoiceModal, #receiptModal { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:9999; display:flex; justify-content:center; align-items:center; overflow-y:auto; padding:20px; }
-        .invoice-box { background:white; padding:30px; border-radius:4px; width:100%; max-width:900px; box-shadow:0 4px 15px rgba(0,0,0,0.15); box-sizing:border-box; }
-        
-        /* Strict Printing Layout Fixes */
-        @media print {
-            body { background: white; color: black; display: block; }
-            .sidebar, .top-profile-bar, .main-content, .no-print, .btn, form, .view-pane, .card { display: none !important; }
-            
-            body:has(#invoiceModal:not(.hidden)) #invoiceModal { position: absolute; left: 0; top: 0; width: 100%; height: auto; display: block !important; background: transparent; z-index: auto; padding: 0; }
-            body:has(#invoiceModal:not(.hidden)) #invoiceModal .invoice-box { max-width: 100%; padding: 0; border: none; box-shadow: none; display: block !important; }
-            body:has(#invoicePrintArea) #invoicePrintArea { display: block !important; }
-
-            body:has(#receiptModal:not(.hidden)) #receiptModal { position: absolute; left: 0; top: 0; width: 100%; height: auto; display: block !important; background: transparent; z-index: auto; padding: 0; }
-            body:has(#receiptModal:not(.hidden)) #receiptModal .invoice-box { max-width: 100%; padding: 0; border: none; box-shadow: none; display: block !important; }
-            body:has(#receiptPrintArea) #receiptPrintArea { display: block !important; }
-
-            body:has(#v-reports:not(.hidden):not(.print-invoice-mode)) #v-reports, 
-            body:has(#v-reports:not(.hidden):not(.print-invoice-mode)) .ledger-card, 
-            body:has(#v-reports:not(.hidden):not(.print-invoice-mode)) #ledgerPrintCanvas { 
-                display: block !important; 
-                box-shadow: none !important; 
-                padding: 0 !important; 
-                border: none !important; 
-            }
-        }
-    </style>
+       
 </head>
 <body>
 
