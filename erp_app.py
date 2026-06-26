@@ -18,7 +18,7 @@ def load_database():
         except:
             pass
     return {
-        "profile": {"name": "लक्ष्मी कृषि सेवा केंद्र", "address": "नवीन मंडी परिसर, रायपुर", "state": "CG", "gst": "22ABCDE1234F1Z0", "mobile": "9827112345"},
+        "profile": {"name": "माँ ट्रेडर्स भातमाहुल", "address": "ग्राम भातमाहुल, तहसील हसौद, जिला सक्ती (छत्तीसगढ़)", "state": "CG", "gst": "22ASXPJ1176B1ZU", "mobile": "9827112345"},
         "kisan": [], "company": [], "items": [], "purchase": [], "sale": [], "payments": [], "receipts": []
     }
 
